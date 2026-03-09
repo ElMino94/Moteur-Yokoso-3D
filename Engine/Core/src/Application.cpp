@@ -1,21 +1,35 @@
 #include "Application.h"
-#include <iostream>
+
+#include "Logger.h"
+#include "Assert.h"
 
 Application::Application()
 {
-    std::cout << "Application started\n";
+    Init();
 }
 
 Application::~Application()
 {
-    std::cout << "Application shutdown\n";
+    Shutdown();
+}
+
+void Application::Init()
+{
+    Logger::Log("Application started");
+}
+
+void Application::Shutdown()
+{
+    Logger::Log("Application shutdown");
 }
 
 void Application::Run()
 {
     while (m_Running)
     {
-        std::cout << "Engine frame\n";
+        Logger::Log("Engine frame");
+
         m_Running = false;
     }
 }
+

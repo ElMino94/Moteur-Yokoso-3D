@@ -11,6 +11,9 @@ public:
 
 private:
 
+	void Init();
+	void Shutdown();
+
 	bool m_Running = true;
 
 };

@@ -1,6 +1,7 @@
 add_library(Engine STATIC
     Core/src/Application.cpp
-)
+    Core/src/Logger.cpp
+ )
 
 target_include_directories(Engine
     PUBLIC
