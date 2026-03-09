@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|solutionrelative:Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|solutionrelative:Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Runtime\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{364F80D4-19D7-425B-94F8-26C159A8E59E}|Moteur 3D Yokoso.vcxproj|solutionrelative:Runtime\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Engine.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.cpp",
-              "RelativeDocumentMoniker": "Engine.cpp",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.cpp",
-              "RelativeToolTip": "Engine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-09T14:06:33.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Engine.h",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.h",
-              "RelativeDocumentMoniker": "Engine.h",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Engine.h",
-              "RelativeToolTip": "Engine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-09T14:06:26.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Runtime\\main.cpp",
+              "RelativeDocumentMoniker": "Runtime\\main.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Unreal Projects\\Moteur-Yokoso-3D\\Moteur 3D Yokoso\\Runtime\\main.cpp",
+              "RelativeToolTip": "Runtime\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-09T13:57:35.579Z",
+              "WhenOpened": "2026-03-09T14:21:49.371Z",
               "EditorCaption": ""
             }
           ]

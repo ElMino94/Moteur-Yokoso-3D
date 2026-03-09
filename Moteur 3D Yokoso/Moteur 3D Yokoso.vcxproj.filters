@@ -16,33 +16,19 @@
     <Filter Include="Engine">
       <UniqueIdentifier>{4754a0b8-e34c-4b9d-8bda-469b6ac91f56}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core">
+    <Filter Include="Engine\Core">
       <UniqueIdentifier>{e955b6bc-cecb-447a-8b4b-6020b8a93713}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Platform">
+    <Filter Include="Engine\Platform">
       <UniqueIdentifier>{29cc6b7a-2ce3-45a0-ad99-4d4b8e224868}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Renderer">
+    <Filter Include="Engine\Renderer">
       <UniqueIdentifier>{06214d67-ce96-44e5-825d-107ab8776699}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\include">
-      <UniqueIdentifier>{d3cd84ac-c917-4060-8876-b1a0750b5437}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Engine\src">
-      <UniqueIdentifier>{c1fbb616-3b83-40c2-bb2a-f33a3843ca1e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Runtime\main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Engine.cpp">
-      <Filter>Engine\src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Engine.h">
-      <Filter>Engine\include</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
