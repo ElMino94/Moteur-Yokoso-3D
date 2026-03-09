@@ -568,6 +568,13 @@ FodyWeavers.xsd
 # Config file of ImGUI
 imgui.ini
 
+.vs/
+x64/
+*.user
+*.aps
+*.obj
+*.pdb
+
 # Engine files
 !include/
 !lib/*
