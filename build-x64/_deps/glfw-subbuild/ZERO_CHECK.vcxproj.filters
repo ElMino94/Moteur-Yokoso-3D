@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-subbuild\CMakeFiles\1ba47f138f77a1ae57116c0e98911822\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DA16CDAE-124A-398D-A2AA-2462772AF8E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

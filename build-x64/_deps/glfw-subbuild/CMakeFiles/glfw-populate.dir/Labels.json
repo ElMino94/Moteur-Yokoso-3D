@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/1ba47f138f77a1ae57116c0e98911822/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/4916c141087b5e7c3655a049c0be55d8/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-subbuild/CMakeFiles/e786be0e1ca86b89a4495775d672009d/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

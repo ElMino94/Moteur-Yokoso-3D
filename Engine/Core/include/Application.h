@@ -3,6 +3,7 @@
 #include <memory>
 
 class Window;
+class VulkanContext;
 
 class Application {
 
@@ -21,5 +22,6 @@ private:
 	bool m_Running = true;
 
 	std::unique_ptr<Window> m_Window;
+	std::unique_ptr<VulkanContext> m_Renderer;
 
 };

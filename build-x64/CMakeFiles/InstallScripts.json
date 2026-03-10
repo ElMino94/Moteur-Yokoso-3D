@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/cmake_install.cmake",
+		"C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-build/cmake_install.cmake",
+		"C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-build/src/cmake_install.cmake",
+		"C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/Engine/cmake_install.cmake",
+		"C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/Runtime/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\CMakeFiles\ff2e1d65b63b268bf3fe8b0ef7f19474\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3821517C-A68E-328F-83FA-FE05CB74062D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CE1B28E2-EA35-3F74-A62A-6E6DFDCB7D8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
