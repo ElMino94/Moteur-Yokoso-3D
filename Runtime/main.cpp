@@ -1,10 +1,11 @@
 #include "Application.h"
 
-int main()
-{
+int main(){
+
     Application app;
     app.Run();
     return 0;
+
 }
 
 //Oui, c’est encore le même type de souci : le cache CMake a été créé avec une autre plateforme (souvent Win32) et maintenant Visual Studio ou CMake essaie d’utiliser x64.

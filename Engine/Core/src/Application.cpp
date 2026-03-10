@@ -1,35 +1,47 @@
 #include "Application.h"
 
 #include "Logger.h"
-#include "Assert.h"
+#include "Window.h"
 
-Application::Application()
-{
+Application::Application(){
+
     Init();
+
 }
 
-Application::~Application()
-{
+Application::~Application(){
+
     Shutdown();
+
 }
 
-void Application::Init()
-{
+void Application::Init(){
+
     Logger::Log("Application started");
+    m_Window = std::make_unique<Window>(1280, 720, "Yokoso Engine");
+
 }
 
-void Application::Shutdown()
-{
+void Application::Shutdown(){
+
+    m_Window.reset();
     Logger::Log("Application shutdown");
+
 }
 
-void Application::Run()
-{
-    while (m_Running)
-    {
-        Logger::Log("Engine frame");
+void Application::Run(){
 
-        m_Running = false;
+    while (m_Running){
+
+        if (!m_Window || m_Window->ShouldClose()){
+
+            m_Running = false;
+            continue;
+
+        }
+
+        m_Window->PollEvents();
+
     }
-}
 
+}
