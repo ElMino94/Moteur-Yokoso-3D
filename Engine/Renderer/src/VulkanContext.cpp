@@ -19,20 +19,26 @@ void VulkanContext::Init() {
 
 	Logger::Log("Initializing Vulkan :3");
 	CreateInstance();
+	CreateSurface();
+	PickPhysicalDevise();
 
 }
 
-void VulkanContext::Shutdown() {
+void VulkanContext::Shutdown()
+{
+	if (m_Surface != VK_NULL_HANDLE)
+	{
+		vkDestroySurfaceKHR(m_Instance, m_Surface, nullptr);
+		m_Surface = VK_NULL_HANDLE;
+	}
 
-	if (m_Instance != VK_NULL_HANDLE) {
-
+	if (m_Instance != VK_NULL_HANDLE)
+	{
 		vkDestroyInstance(m_Instance, nullptr);
 		m_Instance = VK_NULL_HANDLE;
-
 	}
 
 	Logger::Log("Vulkan shutdown :0");
-
 }
 
 void VulkanContext::CreateInstance() {
@@ -67,5 +73,39 @@ void VulkanContext::CreateInstance() {
 	}
 
 	Logger::Log("Vulkan Instance created");
+
+}
+
+void VulkanContext::CreateSurface() {
+	
+	if (glfwCreateWindowSurface(m_Instance, m_Window->GetNativeWindow(), nullptr, &m_Surface) != VK_SUCCESS){
+
+		Logger::Error("Failed to create Vulkan surface");
+		return;
+
+	}
+
+	Logger::Log("Vulkan surface created");
+
+}
+
+void VulkanContext::PickPhysicalDevise() {
+
+	uint32_t deviceCount = 0;
+	vkEnumeratePhysicalDevices(m_Instance, &deviceCount, nullptr);
+
+	if (deviceCount == 0) {
+
+		Logger::Error("Failed to find GPU with vulkan support");
+		return;
+
+	}
+
+	std::vector<VkPhysicalDevice> devices(deviceCount);
+	vkEnumeratePhysicalDevices(m_Instance, &deviceCount, devices.data());
+
+	m_PhysicalDevice = devices[0];
+
+	Logger::Log("Physical device selected");
 
 }

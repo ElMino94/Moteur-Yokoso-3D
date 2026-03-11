@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/_deps/glfw-build/cmake_install.cmake")
+  include("C:/Users/PC/OneDrive/Documents/Unreal Projects/Moteur-Yokoso-3D/build-x64/ThirdParty/glfw-3.4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

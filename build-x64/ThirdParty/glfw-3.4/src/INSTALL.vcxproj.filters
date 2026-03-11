@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\CMakeFiles\d56fe6124b79fdfa2986ecc0f7cbf534\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3821517C-A68E-328F-83FA-FE05CB74062D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

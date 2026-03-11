@@ -36,17 +36,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vc
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "_deps\glfw-build\src\glfw.vcxproj", "{668719DC-F5C6-3DD0-A5C4-6116DE46CCC8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "ThirdParty\glfw-3.4\src\glfw.vcxproj", "{668719DC-F5C6-3DD0-A5C4-6116DE46CCC8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5C15D74-2BC2-36D2-BC32-00778F37A69A} = {A5C15D74-2BC2-36D2-BC32-00778F37A69A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uninstall", "_deps\glfw-build\uninstall.vcxproj", "{B79306A0-B73C-37CA-B5B9-939D4BF2FF71}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uninstall", "ThirdParty\glfw-3.4\uninstall.vcxproj", "{B79306A0-B73C-37CA-B5B9-939D4BF2FF71}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5C15D74-2BC2-36D2-BC32-00778F37A69A} = {A5C15D74-2BC2-36D2-BC32-00778F37A69A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "update_mappings", "_deps\glfw-build\src\update_mappings.vcxproj", "{E90DFD34-FCC8-3AC0-9CF4-7F4C17A4E31F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "update_mappings", "ThirdParty\glfw-3.4\src\update_mappings.vcxproj", "{E90DFD34-FCC8-3AC0-9CF4-7F4C17A4E31F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5C15D74-2BC2-36D2-BC32-00778F37A69A} = {A5C15D74-2BC2-36D2-BC32-00778F37A69A}
 	EndProjectSection

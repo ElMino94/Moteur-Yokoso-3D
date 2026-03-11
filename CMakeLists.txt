@@ -17,7 +17,7 @@ set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
-FetchContent_MakeAvailable(glfw)
 
+add_subdirectory(ThirdParty/glfw-3.4)
 add_subdirectory(Engine)
 add_subdirectory(Runtime)

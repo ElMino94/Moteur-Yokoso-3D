@@ -12,10 +12,11 @@ target_include_directories(Engine
         ${CMAKE_CURRENT_SOURCE_DIR}/Core/include
         ${CMAKE_CURRENT_SOURCE_DIR}/Platform/include
         ${CMAKE_CURRENT_SOURCE_DIR}/Renderer/include
+        $ENV{VULKAN_SDK}/Include
 )
 
 target_link_libraries(Engine
     PUBLIC
         glfw
-        Vulkan::Vulkan
+        $ENV{VULKAN_SDK}/Lib/vulkan-1.lib
 )

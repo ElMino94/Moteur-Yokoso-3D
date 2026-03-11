@@ -86,15 +86,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -113,10 +111,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,7 +122,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Engine\Debug\Engine.lib;..\_deps\glfw-build\src\Debug\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Engine\Debug\Engine.lib;..\ThirdParty\glfw-3.4\src\Debug\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -143,14 +141,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -171,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -182,7 +178,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Engine\Release\Engine.lib;..\_deps\glfw-build\src\Release\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Engine\Release\Engine.lib;..\ThirdParty\glfw-3.4\src\Release\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -201,14 +197,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -229,10 +223,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -240,7 +234,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Engine\MinSizeRel\Engine.lib;..\_deps\glfw-build\src\MinSizeRel\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Engine\MinSizeRel\Engine.lib;..\ThirdParty\glfw-3.4\src\MinSizeRel\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -259,15 +253,13 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
       <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <FloatingPointModel></FloatingPointModel>
       <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -286,10 +278,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-src\include;C:\VulkanSDK\1.4.341.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Core\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Platform\include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\Engine\Renderer\include;C:\VulkanSDK\1.4.341.1\Include;C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\ThirdParty\glfw-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -297,7 +289,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Engine\RelWithDebInfo\Engine.lib;..\_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Engine\RelWithDebInfo\Engine.lib;..\ThirdParty\glfw-3.4\src\RelWithDebInfo\glfw3.lib;C:\VulkanSDK\1.4.341.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -386,7 +378,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{8F720ACE-1D0B-3974-AC51-C8560E5E7875}</Project>
       <Name>Engine</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\_deps\glfw-build\src\glfw.vcxproj">
+    <ProjectReference Include="C:\Users\PC\OneDrive\Documents\Unreal Projects\Moteur-Yokoso-3D\build-x64\ThirdParty\glfw-3.4\src\glfw.vcxproj">
       <Project>{668719DC-F5C6-3DD0-A5C4-6116DE46CCC8}</Project>
       <Name>glfw</Name>
     </ProjectReference>
